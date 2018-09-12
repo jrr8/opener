@@ -1,0 +1,5 @@
+workflow_id,plan,risk_level,num_rejections
+2001,1001,LOW,0
+2002,1002,MODERATE,0
+2003,1003,HIGH,1
+2004,1004,SEVERE,0

@@ -1,0 +1,52 @@
+/*
+    This is the base css for Muvve's web-portal, used by fitness studios and the like
+    that use our platform
+*/
+:root {
+    --Muvve-teal: #89D1CE;
+    --Muvve-blue: #1CA9E3;
+    --Muvve-black: black;
+}
+
+.shade {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar.sticky-top {
+    background-color: var(--Muvve-black);
+}
+
+a.nav-item.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+}
+
+a.nav-item.nav-link.active-link {
+    color: rgb(235, 235, 235);
+}
+
+nav form button {
+    color: white;
+    border-color: white
+}
+
+#nav-image-container {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+#muvve-nav-image {
+    width: 90%;
+}
+
+.light-weight {
+    font-weight: 200;
+}
+
+.ultra-light-weight {
+    font-weight: 100;
+}
+
+.mid-weight {
+    font-weight: 400;
+}

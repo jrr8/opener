@@ -1,0 +1,11 @@
+stage_id,workflow,requires_approval_from,description,approved
+3001,2001,4001,Author approval,TRUE
+3002,2002,4001,Author approval,TRUE
+3003,2002,4011,First manager approval,FALSE
+3004,2003,4002,Author approval,TRUE
+3005,2003,4011,First manager approval,TRUE
+3006,2003,4012,Second manager approval,FALSE
+3007,2004,4003,Author approval,TRUE
+3008,2004,4011,First manager approval,TRUE
+3009,2004,4012,Second manager approval,FALSE
+3010,2004,4900,CEO approval,FALSE

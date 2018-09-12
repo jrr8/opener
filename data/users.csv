@@ -1,0 +1,7 @@
+user_id,first_name,last_name,phone,email,password_hash,position,risk_clearance
+4001,Alexa,Smith,(555)555-5001,alexa@opener.aero,acdhf923488fh,engineer,LOW
+4002,John,Doe,(555)555-5002,john@opener.aero,kfn284050vhdj4,engineer,LOW
+4003,Yousef,Aboll,(555)555-5003,yousef@opener.aero,fjsdkfj0042f1j,engineer,LOW
+4011,Nancy,Klein,(555)555-5004,nancy@opener.aero,fslj039g2n3k5jt,manager,HIGH
+4012,Jacques,Bernard,(555)555-5005,jacques@opener.aero,4t0999034jjf,manager,HIGH
+4900,Ricky,Bobby,(555)555-5006,ricky@opener.aero,fpsdklfj043534,CEO,SEVERE

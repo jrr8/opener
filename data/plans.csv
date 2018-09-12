@@ -1,0 +1,5 @@
+plan_id,workflow,author,title,description,status,created_date,last_modified_date
+1001,2001,4001,Sample Test 1,This test will examine new fuselage designs for pilot comfort,complete,08/21/18,09/05/18
+1002,2002,4001,Sample Test 2,Compare torque of two motors at high RPM,pending approval,09/01/18,09/06/18
+1003,2003,4002,Sample Test 3,Stress test different propellor blade shapes under high stress,pending approval,09/02/18,09/08/18
+1004,2004,4003,Sample Test 4,Examine breakges upon massive system failure,pending approval,08/30/18,09/09/18
