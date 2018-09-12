@@ -26,9 +26,8 @@ class _DataModel:
         self.db[self.id][field] = value
 
     def update(self, data):
-        if not isinstance(data, dict):
-            raise TypeError('Data passed to a DataModel subclass must be a dict')
-        self.db[self.id].update(data)
+        if isinstance(data, dict):
+            self.db[self.id].update(data)
 
     @classmethod
     def add_field(cls, field_name, initial_val=None):
@@ -195,6 +194,9 @@ def load_sample_data():
             print(load_attempt)
 
 
+# Read in sample data
 load_sample_data()
+
+# Instantiate
 wf = WorkFlow('2004')
 print(wf)
