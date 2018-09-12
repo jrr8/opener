@@ -1,12 +1,13 @@
 """
 This is one my favorite personal project inspired by the game challenge 24.
-In the game, you are given 4 numbers between 1 and 9, and you must use
+In the game, you are given 4 integers between 1 and 9, and you must use
 each exactly once with the basic arithmetic operations +, -, *, / to make
 an expression that equals 24.
 
 It's not too difficult to recursively generate all such expressions given 4 numbers
 and check which evaluate to 24, but I've been iterating and improving the code
-to do it more elegantly and handle more than 4 numbers
+to do it more elegantly so that it can handle more than 4 numbers. Soon
+I will make a web interface for this project.
 """
 from operator import add, sub, mul
 from itertools import combinations
@@ -81,10 +82,10 @@ class CompoundExpression(Expression):
             return side
 
     def evaluate(self):
-        pass
+        raise NotImplementedError
 
     def signature(self):
-        pass
+        raise NotImplementedError
 
 
 class CommutativeExpression(CompoundExpression):

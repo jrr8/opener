@@ -1,6 +1,7 @@
 """
 This is the python code for step 6) in the assignment. This should be
-run in a python3 environment.
+run in a python3 environment. If you run this file, you'll see
+the pretty print of plan "Sample Test 4" printed to stdout
 """
 
 

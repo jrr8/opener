@@ -9,7 +9,7 @@ not include any explicit schema because the relations
 between tables are fairly straightforward and can be gathered
 from the column names of each table. Unfortunately I was not able
 to code the tables as Django models as I am a Flask user and am more
-familiar with NoSQL databases, and my school assignments were beckoning :(
+familiar with NoSQL databases, and my school assignments were beckoning
 
 3) My example data is included in each table of the `database_table.xlsx` spreadsheet
 
@@ -25,7 +25,7 @@ between now and January).
 
 6) My python implementation of the database is in `db.py`. I commented
 the code where appropriate, but the base idea is that the `_DataModel` class
-is an abstract class of which each table in the database has a concrete subclass.
+is an abstract class of which each table in the database is a concrete subclass.
     * Note that in this implementation the "database" is started from
     scratch each time the program starts. Obviously a more robust design
     would be required in practice

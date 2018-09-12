@@ -25,7 +25,7 @@ class _DataModel {
     // These methods are wrappers around the class's database so that
     // you can call <instance>.get(field) rather than <instance>.db[this.id][field]
     get(field) {
-        return this.db[field];
+        return this.db[this.id][field];
     }
 
     set(field, value) {
@@ -34,7 +34,6 @@ class _DataModel {
 }
 
 // Adding static methods
-_DataModel.prototype.db = {};
 _DataModel.prototype.addField = function(name, initialVal) {
     for (let row in this.db) {
         this.db[row][name] = initialVal
